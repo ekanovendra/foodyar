@@ -1,0 +1,124 @@
+html,
+body {
+  font-family: "Quicksand", sans-serif;
+  font-style: normal;
+  /* background-color: #ffffff; */
+  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+  
+}
+.food-item a {
+  color: #272042;
+  font-size: 16px;
+}
+
+.nav-item,
+.menu {
+  padding-inline-start: 20px;
+}
+
+.navbar {
+  padding-top: 25px;
+}
+.navbar ul {
+  padding-right: 30px;
+}
+.hero-text {
+  padding-top: 70px;
+}
+.hero img {
+  width: auto;
+}
+.underline {
+  text-decoration: underline;
+  text-decoration-color: #fad4ce;
+  font-weight: 400px;
+}
+h1 {
+  font-weight: 700;
+  color: #272042;
+  font-size: 40px;
+}
+.subtitle-hero {
+  color: #8b8ba5;
+  font-size: 17px;
+  margin-top: -10px;
+}
+.subtitle-food {
+  color: #8b8ba5;
+  font-size: 14px;
+}
+.title-silver {
+  color: #55555a;
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: -12px;
+}
+.btn-pink {
+  background-color: #fbe0dc;
+  border-radius: 80px 80px 40px 40px;
+  width: 140px;
+  margin-right: 10px;
+}
+.btn-kuning {
+  background-color: #f7c531;
+  border-radius: 80px 80px 40px 40px;
+  width: 150px;
+  height: 37px;
+  margin-right: 10px;
+  font-size: 14px;
+  border: none;
+}
+.btn-pink:hover {
+  background-color: #fcd1cb;
+  border: none;
+  box-shadow: 0px 15px 20px rgba(245, 222, 234, 0.74);
+  transform: translateY(1px);
+}
+.btn-kuning:hover {
+  background-color: #f3be1e;
+  border-radius: 80px 80px 40px 40px;
+  width: 150px;
+  margin-right: 10px;
+  font-size: 14px;
+  border: none;
+  background-color: #f3be1e;
+  box-shadow: 0px 15px 20px rgba(252, 237, 153, 0.74);
+  transform: translateY(1px);
+}
+.card {
+  border-radius: 20px;
+  border: none;
+  box-shadow: rgba(83, 71, 73, 0.1) 0px 5px 5px;
+  justify-content: center;
+}
+.food {
+  padding-top: 70px;
+}
+
+.star-rating img {
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 4px;
+  width: 15px;
+}
+
+.title-testimoni {
+  letter-spacing: 2px;
+  align-content: center;
+}
+.relation img {
+  margin-right: 15px;
+}
+
+.nav-link {
+  color: #272042;
+  font-weight: 300;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #272042;
+  background-color: #fbe0dc;
+  border-radius: 80px 80px 40px 40px;
+  width: 140px;
+  margin-right: 10px;
+}
